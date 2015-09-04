@@ -4,7 +4,7 @@ This component can translate any Dashboard made with Pentaho CDE. This component
 
 ## How to work
 
-The component has a default language for the language will not apply any changes. With this we obtain that do not influence the performance and the content is indexed. If the language is different, it will search all instances of a class, and apply translations that appear in the file properties ( using a translation i18n applied by jquery ).
+The component has a default language, for this language will not apply any changes. With this we obtain that do not influence the performance and the content is indexed. If the language is different, it will search all instances of a class, and apply translations that appear in the file properties ( using a translation i18n applied by jquery ).
 The application rewrite html content,
 
 ## Installation
@@ -28,6 +28,7 @@ Name Parameter: Name of parameter.
 
 ## Files
 Note: You need create a fail without language.
+
 Note2: The application rewrites the html , it can sometimes be necessary to include small fragments in the translation files.
 
 ```properties
@@ -47,4 +48,23 @@ After Internationalization component
 <span class="internationalization datoTexto" keyi18n="totalConnectedUsersLast5Minutes_1">
 	Total connected users last 5 minutes
 </span>
+```
+
+## Test
+
+You only need install the component, and upload dashboard (internationalization.zip).
+When you put the url, only add: &language=es
+
+## Tip
+
+If you want create a dynamic content from other component, you can use this:
+
+```javascript
+Dashboards.i18nSupport.prop('other_key');
+```
+
+or
+
+```javascript
+jQuery.i18n.prop('other_key');
 ```
