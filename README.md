@@ -10,15 +10,20 @@ The application rewrite html content,
 ## Installation
 
 To install the component , simply put it in the folder CDE , in custom components, and restart the server.
+
 (biserver-ce/pentaho-solutions/system/pentaho-cdf-dd/resources/custom/components/<this_plugin>)
 
 
 ## Configure component
 
 There are parameters that are not used , we will focus on the following:
+
 Name: Name we give to the component (required but irrelevant in this case)
+
 Default Language: Default language (en,es)
+
 Default name file translate: Name of file in "languages" folder.
+
 Name Parameter: Name of parameter.
 
 ## Files
