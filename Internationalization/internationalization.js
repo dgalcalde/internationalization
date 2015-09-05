@@ -14,8 +14,8 @@ if(!getUrlVars) {
 }
 
 // Init jQuery i18n plugin
-if(!loadMessageBundles) {
-    var loadMessageBundles = function(lang,fileNameTranslation) {
+if(!loadCDEMessageBundles) {
+	var loadCDEMessageBundles = function(lang,fileNameTranslation) {
             if(lang && fileNameTranslation) {
                 jQuery.i18n.properties({
                         name:fileNameTranslation,
@@ -37,7 +37,7 @@ var InternationalizationComponent = BaseComponent.extend({
         var fileNameTranslation = (this.fileNameTranslation) ? this.fileNameTranslation : 'default';
 
         var userLocale = oknLanguage;
-        loadMessageBundles(userLocale,fileNameTranslation);
+        loadCDEMessageBundles(userLocale,fileNameTranslation);
     }
 
     //alert(oknLanguage);
