@@ -45,7 +45,7 @@ Bebore Internationalization component
 ```
 After Internationalization component
 ```html
-<span class="internationalization datoTexto" keyi18n="totalConnectedUsersLast5Minutes_1">
+<span class="internationalization" keyi18n="oneKeyOfFileProperties">
 	Total connected users last 5 minutes
 </span>
 ```
