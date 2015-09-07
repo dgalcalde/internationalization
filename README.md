@@ -11,7 +11,7 @@ The application rewrite html content,
 
 To install the component , simply put it in the folder CDE , in custom components, and restart the server.
 
-(biserver-ce/pentaho-solutions/system/pentaho-cdf-dd/resources/custom/components/<this_plugin>)
+(biserver-ce/pentaho-solutions/system/pentaho-cdf-dd/resources/custom/components/<this_plugin>).
 
 
 ## Configure component
